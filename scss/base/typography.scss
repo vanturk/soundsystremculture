@@ -1,0 +1,204 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--sans);
+	letter-spacing: -0.01rem;
+	line-height: 120%;
+	// font-weight: 600;
+}
+
+h1, .h1 {
+	font-size: var(--h1);
+}
+
+h2, .h2 {
+	font-size: var(--h2);
+}
+
+h3, .h3 {
+	font-size: var(--h3);
+}
+
+h4, .h4 {
+	font-size: var(--h4);
+}
+
+h5, .h5 {
+	font-size: var(--h5);
+}
+
+h6, .h6 {
+	font-size: var(--h6);
+}
+
+
+
+p {
+	font-size: var(--p);
+	// font-family: var(--serif);
+	line-height: 160%;
+	font-weight: 400;
+	letter-spacing: -0.01rem;
+}
+
+
+.fw-100 {
+	font-weight: 100;
+}
+
+.fw-200 {
+	font-weight: 200;
+}
+
+.fw-300 {
+	font-weight: 300;
+}
+
+.fw-400 {
+	font-weight: 400;
+}
+
+.fw-500 {
+	font-weight: 500;
+}
+.fw-600 {
+	font-weight: 600;
+}
+.fw-700 {
+	font-weight: 700;
+}
+.fw-800 {
+	font-weight: 800;
+}
+.fw-900 {
+	font-weight: 900;
+}
+
+
+
+
+.card-title {
+	font-family: var(--sans);
+	font-size: var(--h6);
+	line-height: 120%;
+	letter-spacing: -0.04rem;
+}
+
+
+
+/* display title default styles */
+
+.display-title {
+	font-family: var(--display-serif);
+}
+
+.display-title-large {
+	font-size: var(--d1);
+}
+
+
+.display-title-medium {
+	font-size: var(--d2);
+}
+
+.display-title-small {
+	font-size: var(--d3);
+}
+
+
+/* display text defaults styles */
+
+.display-text {
+	line-height: 120%;
+	letter-spacing: -0.06rem;
+}
+
+.display-text-grande {
+	font-size: var(--h2);
+}
+
+.display-text-large {
+	font-size: var(--h3);
+
+}
+
+.display-text-medium {
+	font-size: var(--h4);
+}
+
+.display-text-small {
+	font-size: var(--h5);
+
+}
+
+.text-align-center {
+	text-align: center;
+}
+
+
+
+.text-uppercase {
+	text-transform: uppercase;
+	letter-spacing: 0.05rem;
+}
+
+
+.white {
+	color: var(--white);
+}
+.black {
+	color: var(--black);
+}
+
+.brand-200 {
+	color: var(--brand-200);
+}
+.brand-500 {
+	color: var(--brand-500);
+}
+.brand-900 {
+	color: var(--brand-900);
+}
+
+
+
+
+
+// primary and secondary colors
+.primary-200 {
+	color: var(--primary-200);
+}
+
+.primary-300 {
+	color: var(--primary-300);
+}
+
+.primary-500 {
+	color: var(--primary-500);
+}
+.primary-700 {
+	color: var(--primary-700);
+}
+
+
+.secondary-200 {
+	color: var(--secondary-200);
+}
+
+.secondary-300 {
+	color: var(--secondary-300);
+}
+
+.secondary-500 {
+	color: var(--secondary-500);
+}
+.secondary-700 {
+	color: var(--secondary-700);
+}
+
+.secondary-900 {
+	color: var(--secondary-900);
+}

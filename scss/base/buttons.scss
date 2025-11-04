@@ -1,0 +1,32 @@
+/* button(s) */
+
+.button-base {
+	display: inline-flex;
+	align-self: flex-start;
+	padding: var(--space-small) var(--space-medium);
+	font-size: var(--p);
+	background: var(--transparent);
+	border: var(--size-1half) solid var(--transparent);
+	border-width: var(--size-1half);
+	border-style: solid;
+	border-color: var(--transparent);
+	border-radius: var(--size-0);
+	color: inherit;
+}
+
+.button-solid {
+	border-width: var(--size-1half);
+	border-style: solid;
+	background: var(--primary-700);
+	border-color: var(--primary-700);
+	border-radius: var(--space-xsmall);
+	color: var(--white);
+}
+
+.button-ghost {
+	border-width: var(--size-1half);
+	border-style: solid;
+	background: var(--transparent);
+	border-color: var(--primary);
+	border-radius: var(--space-xsmall);
+}

@@ -1,0 +1,57 @@
+/* UTILITY CLASSES */
+
+
+/* text utils */
+
+
+/* truncate */
+.utils-truncate {
+  --truncate: 2;
+  display: -webkit-box;
+  -webkit-line-clamp: var(--truncate);
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* indentation */
+.utils-indent {
+  text-indent: 8vw;
+}
+
+.utils-extreme-indent {
+  text-indent: 20vw;
+}
+
+.utils-serif {
+  font-family: var(--serif);
+}
+
+.utils-sans {
+  font-family: var(--sans);
+}
+
+.utils-caps {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* text wrap styles */
+.tw-balance {
+  text-wrap: balance;
+}
+
+.tw-pretty {
+  text-wrap: pretty;
+}
+
+.tw-none {
+  text-wrap: none;
+}
+
+.utils-horizontal-line {
+  display: inline-flex;
+  transform: translateY(-0.5rem);
+  height: 0.125rem;
+  width: 16vw;
+  background: var(--gray-700);
+}

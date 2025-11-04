@@ -1,0 +1,75 @@
+@use "../base/variables";
+
+* {
+    letter-spacing: 0 !important;
+}
+h2 {
+    font-size: clamp(1.25rem, 0.9314rem + 1.3072vw, 2.5rem);
+}
+
+h3 {
+    font-size: clamp(1.125rem, 0.902rem + 0.915vw, 2rem);
+}
+
+p {
+    font-size: clamp(0.875rem, 0.8113rem + 0.2614vw, 1.125rem);
+    line-height: 140%;
+}
+
+.light-text {
+    color: #ddd;
+}
+
+.text-white {
+    color: white;
+}
+
+.img-width-300 {
+    width: clamp(0rem, -4.7794rem + 19.6078vw, 18.75rem);
+}
+
+ul {
+    padding-top: 24px;
+    li {
+        padding: 40px 0;
+        border-top: 1px solid rgba(white, 0.5);
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        &:nth-of-type(1) {
+            border-top: 1px solid transparent;
+        }
+    }
+}
+
+
+.background-black {
+    background: #181818;
+}
+
+.subtitle {
+    font-size: clamp(1rem, 0.9363rem + 0.2614vw, 1.25rem);
+}
+
+
+
+.gray-bg {
+    border-top: 1px solid rgba(black, 0.5);
+    border-bottom: 1px solid rgba(black, 0.5);
+    background: #f6f6f6;
+}
+
+footer {
+    .footer-container {
+        height: 40px;
+        border-top: 1px solid rgba(black, 0.5);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        p {
+            font-size: 14px;
+        }
+    }
+}
+
+

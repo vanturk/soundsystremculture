@@ -1,0 +1,60 @@
+/* sans serif */
+@font-face {
+  font-family: "Inter Variable";
+  src: url("/fonts/inter/InterVariable.woff2") format("woff2");
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "DM Sans Variable";
+  src: url("/fonts/dm-sans/DMSans-VariableFont.ttf") format("truetype-variations"); /* Key change for TTF */
+  font-weight: 100 1000; /* Weight axis range */
+  font-style: normal;
+  font-stretch: 75% 125%; /* Optional, if your font supports the width axis */
+  font-display: swap; /* Recommended: improves loading performance */
+}
+@font-face {
+  font-family: "CrimsonPro";
+  src: url("/fonts/crimson-pro/CrimsonPro-Variable.woff2") format("woff2"), url("/fonts/crimson-pro/CrimsonPro-Variable.woff") format("woff");
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CrimsonPro Italic";
+  src: url("/fonts/crimson-pro/CrimsonPro-VariableItalic.woff2") format("woff2"), url("/fonts/crimson-pro/CrimsonPro-VariableItalic.woff") format("woff");
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: normal;
+}
+/* serif display */
+@font-face {
+  font-family: "Literata";
+  src: url("/fonts/literata/Literata-Variable.woff2") format("woff2"), url("/fonts/literata/Literata-Variable.woff") format("woff");
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Literata Italic";
+  src: url("/fonts/literata/Literata-VariableItalic.woff2") format("woff2"), url("/fonts/literata/Literata-VariableItalic.woff") format("woff");
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Recia";
+  src: url("/fonts/recia/Recia-Variable.woff2") format("woff2"), url("/fonts/recia/Recia-Variable.woff") format("woff");
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: normal;
+}
+/* sans display */
+@font-face {
+  font-family: "sharpie";
+  src: url("/fonts/sharpie/Sharpie-Variable.woff2") format("woff2"), url("/fonts/sharpie/Sharpie-Variable.woff") format("woff");
+  font-weight: 300 900;
+  font-display: swap;
+  font-style: normal;
+}

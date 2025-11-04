@@ -1,0 +1,36 @@
+:root {
+  /*  sizes  */
+  --size-0: 0;
+  --size-1: 0.0625rem;
+  --size-1half: 0.09375rem;
+  --size-2: 0.125rem;
+  --size-4: 0.25rem;
+  --size-8: 0.5rem;
+  --size-14: 0.875rem;
+  --size-16: 1rem;
+  --size-18: 1.125rem;
+  --size-20: 1.25rem;
+  --size-24: 1.5rem;
+  --size-32: 2rem;
+  --size-40: 2.5rem;
+  --size-48: 3rem;
+  --size-60: 3.75rem;
+  --size-72: 4.5rem;
+  --size-80: 5rem;
+  --size-100: 6.25rem;
+  --size-120: 7.5rem;
+  --size-160: 10rem;
+  /* space */
+  --space-xsmall: clamp(var(--size-4), var(--size-4) + 2vw, var(--size-16));
+  --space-small: clamp(var(--size-8), var(--size-4) + 2vw, var(--size-24));
+  --space-medium: clamp(var(--size-16), var(--size-8) + 2vw, var(--size-32));
+  --space-large: clamp(var(--size-24), var(--size-8) + 2.2vw, var(--size-48));
+  --space-xlarge: clamp(var(--size-32), var(--size-8) + 2.2vw, var(--size-60));
+  --space-grande: clamp(var(--size-60), var(--size-8) + 2.2vw, var(--size-80));
+  --space-jumbo: clamp(var(--size-80), var(--size-8) + 2.2vw, var(--size-120));
+  --space-giant: clamp(var(--size-100), var(--size-8) + 2.2vw, var(--size-160));
+  --space-mega: clamp(calc(var(--size-120) * 1.25), var(--size-8) + 2.8vw, calc(var(--size-160) * 1.25));
+  --space-cosmic: clamp(calc(var(--size-120) * 1.5), var(--size-8) + 3.2vw, calc(var(--size-160) * 1.5));
+  /* border radius */
+  --radius: clamp(var(--size-2), var(--size-4) + 2vw, var(--size-8));
+}

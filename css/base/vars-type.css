@@ -1,0 +1,19 @@
+:root {
+  --sans: "Switzer", sans-serif;
+  --serif: "Recia", serif;
+  --display-sans: "Sharpie", sans-serif;
+  --display-serif: "Literata", serif;
+  /* html text styles */
+  /* this set is little small in size, use for more conservative designs */
+  --h1: clamp(1.5rem, 0.8627rem + 2.6144vw, 4rem);
+  --h2: clamp(1.25rem, -2.1875rem + 11vw, 4rem);
+  --h3: clamp(1.125rem, -1.8438rem + 9.5vw, 3.5rem);
+  --h4: clamp(1rem, -1.5rem + 8vw, 3rem);
+  --h5: clamp(0.875rem, -1.1563rem + 6.5vw, 2.5rem);
+  --h6: clamp(0.875rem, -0.5313rem + 4.5vw, 2rem);
+  --p: clamp(0.875rem, 0.0938rem + 2.5vw, 1.5rem);
+  /* display title styles */
+  --d1: clamp(var(--size-48), var(--size-8) + 10vw, var(--size-160));
+  --d2: clamp(var(--size-32), var(--size-8) + 8vw, var(--size-100));
+  --d3: clamp(var(--size-24), var(--size-8) + 6vw, var(--size-60));
+}

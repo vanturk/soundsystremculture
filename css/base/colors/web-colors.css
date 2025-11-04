@@ -1,0 +1,269 @@
+:root {
+  --whites-rice: #fbf6ef;
+  --whites-parchment: #fcf6df;
+  --whites-porcelain: #fffffc;
+  --whites-bone: #e7dfcc;
+  --whites-linen: #f2ebd3;
+  --whites-coconut: #fff1e6;
+  --whites-lace: #faf3ea;
+  --whites-salt: #f8efec;
+  --whites-chiffon: #fafaf1;
+  --whites-cotton: #fbfbf9;
+  --whites-eggshell: #fef9e3;
+  --whites-cream: #fffbda;
+  --whites-ivory: #fef7e5;
+  --whites-snow: #f4fefd;
+  --whites-alabaster: #fefaf0;
+  --whites-pearl: #fbfcf7;
+  --whites-white: #fffefc;
+  --whites-frost: #fbfaf2;
+  --whites-winter: #f9fdfe;
+}
+
+:root {
+  --blacks-charcoal: #222023;
+  --blacks-crow: #3d3934;
+  --blacks-ebony: #080401;
+  --blacks-black: #111111;
+  --blacks-jetblack: #252525;
+  --blacks-gunmetal: #353e43;
+}
+
+:root {
+  --blues-arctic: #82edfe;
+  --blues-sapphire: #52b2c0;
+  --blues-admiral: #060f94;
+  --blues-denim: #141e3c;
+  --blues-berry: #24146f;
+  --blues-agean: #1e456e;
+  --blues-stone: #59788d;
+  --blues-spruce: #2c3e4b;
+  --blues-lapis: #2632c2;
+  --blues-cerulean: #0592c2;
+  --blues-azure: #1621a6;
+  --blues-peacock: #002d37;
+  --blues-ocean: #026063;
+  --blues-cobalt: #1438bd;
+  --blues-indigo: #281e5d;
+  --blues-slate: #757b87;
+  --blues-teal: #39cccc;
+  --blues-sky: #00b2ff;
+  --blues-aqua: #7fdbff;
+  --blues-navy: #001f3f;
+  --blues-blue: #0074d9;
+}
+
+:root {
+  --browns-penny: #522915;
+  --browns-cinnamon: #642b0d;
+  --browns-brunnette: #391e07;
+  --browns-tawny: #7e491d;
+  --browns-umber: #352415;
+  --browns-tortilla: #9a7b4f;
+  --browns-chocolate: #2c1603;
+  --browns-gingerbread: #5d2c04;
+  --browns-caramel: #66360f;
+  --browns-walnut: #432711;
+  --browns-pecan: #4a2512;
+  --browns-hickory: #371d10;
+  --browns-carrob: #35260f;
+  --browns-peanut: #795c34;
+  --browns-mocha: #3c290d;
+  --browns-coffee: #4b371c;
+  --browns-brown: #241709;
+}
+
+:root {
+  --earthy-shortbread: #fce791;
+  --earthy-sanddlollar: #ebe7b9;
+  --earthy-buttermilk: #fdefb2;
+  --earthy-sandcastle: #dbc27d;
+  --earthy-hazelnut: #bda55d;
+  --earthy-parmesan: #fee993;
+  --earthy-biscotti: #e3c565;
+  --earthy-oyster: #dcd69f;
+  --earthy-latte: #e9c17b;
+  --earthy-sepia: #e3b678;
+  --earthy-sand: #d7b963;
+  --earthy-fwan: #c7a951;
+  --earthy-eggnog: #fbe29d;
+  --earthy-oat: #dec98a;
+  --earthy-granola: #d6b75a;
+  --earthy-hazelwood: #c9bc8e;
+  --earthy-macaroon: #f7df75;
+  --earthy-beige: #ecdc99;
+  --earthy-tan: #e5dbac;
+}
+
+:root {
+  --grays-fossil: #787276;
+  --grays-coin: #9897a9;
+  --grays-lead: #403f4e;
+  --grays-pebble: #333333;
+  --grays-flint: #7d7c9c;
+  --grays-fog: #655965;
+  --grays-dove: #7c6e7f;
+  --grays-porpoise: #4d4c5d;
+  --grays-ash: #554c4d;
+  --grays-anchor: #42424c;
+  --grays-smoke: #59515f;
+  --grays-silver: #dddddd;
+  --grays-cloud: #c5c5d0;
+  --grays-pewter: #6a6880;
+  --grays-iton: #332d31;
+  --grays-graphite: #584d5b;
+  --grays-shadow: #373737;
+  --grays-grey: #aaaaaa;
+}
+
+:root {
+  --greens-crocodile: #5f7c3a;
+  --greens-basil: #32622d;
+  --greens-pistachio: #b2d3c1;
+  --greens-pickle: #5a7d36;
+  --greens-seaweed: #354b21;
+  --greens-mint: #98ecc3;
+  --greens-parakeet: #02c04a;
+  --greens-pine: #24501e;
+  --greens-seafoam: #3cec96;
+  --greens-shamrock: #03ac13;
+  --greens-moss: #476d1e;
+  --greens-pear: #74b62d;
+  --greens-emerald: #038911;
+  --greens-loive: #98bf64;
+  --greens-fern: #5dbc64;
+  --greens-lime: #01ff70;
+  --greens-sage: #728c69;
+  --greens-juniper: #395311;
+  --greens-chartreuse: #b0fc37;
+  --greens-green: #2ecc40;
+}
+
+:root {
+  --oranges-yam: #cc5801;
+  --oranges-sandstone: #d57128;
+  --oranges-amber: #893201;
+  --oranges-marmalade: #d16102;
+  --oranges-spice: #7a3a03;
+  --oranges-squash: #c95c09;
+  --oranges-carrot: #ed7116;
+  --oranges-apricot: #ed810f;
+  --oranges-cantaloupe: #fca172;
+  --oranges-bronze: #b2560c;
+  --oranges-tiger: #fb6b02;
+  --oranges-ginger: #bc5703;
+  --oranges-rust: #8c4005;
+  --oranges-cider: #b66827;
+  --oranges-merigold: #fdae1d;
+  --oranges-tangerine: #f98228;
+  --oranges-orange: #ff851b;
+}
+
+:root {
+  --pinks-hotpink: #ff1696;
+  --pinks-crepe: #f1b7c6;
+  --pinks-balletslipper: #f69abf;
+  --pinks-bubblegum: #fd5ca8;
+  --pinks-taffy: #fa85c4;
+  --pinks-lemonade: #fabacb;
+  --pinks-rosewood: #a04242;
+  --pinks-strawberry: #fc4c4e;
+  --pinks-peach: #fb9483;
+  --pinks-coral: #fe7d67;
+  --pinks-salmon: #fdab9f;
+  --pinks-rogue: #f26c8c;
+  --pinks-flamingo: #fda4b8;
+  --pinks-watermelon: #fe809c;
+  --pinks-punch: #f25278;
+  --pinks-fuchsial: #f012be;
+  --pinks-pink: #f69acd;
+}
+
+:root {
+  --purples-mulberry: #4d0220;
+  --purples-orchid: #af69ee;
+  --purples-raisin: #290916;
+  --purples-amethyst: #a45de4;
+  --purples-heather: #9b7cb9;
+  --purples-iris: #9866c5;
+  --purples-eggplant: #311431;
+  --purples-periwinkle: #be93d4;
+  --purples-lilac: #b65fcd;
+  --purples-plum: #601a36;
+  --purples-maroon: #85144b;
+  --purples-lavender: #e3a0f6;
+  --purples-boysenberry: #630536;
+  --purples-violet: #710193;
+  --purples-mauve: #7a4a89;
+  --purples-purple: #b10dc9;
+}
+
+:root {
+  --reds-lipstick: #9b0f02;
+  --reds-candy: #d31603;
+  --reds-blush: #bb544a;
+  --reds-currant: #670c07;
+  --reds-sangrial: #5f1914;
+  --reds-blood: #710c04;
+  --reds-mahogany: #420d09;
+  --reds-redapple: #a91b0d;
+  --reds-redwine: #4c0805;
+  --reds-scarlet: #910d08;
+  --reds-rubby: #900503;
+  --reds-crimson: #b8100a;
+  --reds-garnet: #5f0a04;
+  --reds-merlot: #541f1b;
+  --reds-jam: #600f0b;
+  --reds-rose: #e2252a;
+  --reds-cherry: #9a0f02;
+  --reds-red: #ff4136;
+  --reds-passion: #ff324b;
+}
+
+:root {
+  --yellows-tuscansun: #fcd12a;
+  --yellows-pineapple: #ffe327;
+  --yellows-blonde: #fdeb75;
+  --yellows-honey: #ec9707;
+  --yellows-dijon: #c29200;
+  --yellows-butterscoth: #fabd04;
+  --yellows-banana: #fcf4a3;
+  --yellows-bumblebee: #fce206;
+  --yellows-dandelion: #fdce2a;
+  --yellows-medalion: #e4b103;
+  --yellows-corn: #e4cd04;
+  --yellows-mustard: #e9b829;
+  --yellows-lemon: #effd5f;
+  --yellows-butter: #fee226;
+  --yellows-flaxen: #d5b65a;
+  --yellows-daffodil: #feee88;
+  --yellows-gold: #f9a602;
+  --yellows-canary: #fac801;
+  --yellows-yellow: #ffdc00;
+}
+
+:root {
+  --white-opacity-white-90: rgba(255, 255, 255, 0.90);
+  --white-opacity-white-80: rgba(255, 255, 255, 0.80);
+  --white-opacity-white-70: rgba(255, 255, 255, 0.70);
+  --white-opacity-white-60: rgba(255, 255, 255, 0.60);
+  --white-opacity-white-50: rgba(255, 255, 255, 0.50);
+  --white-opacity-white-40: rgba(255, 255, 255, 0.40);
+  --white-opacity-white-30: rgba(255, 255, 255, 0.30);
+  --white-opacity-white-20: rgba(255, 255, 255, 0.20);
+  --white-opacity-white-10: rgba(255, 255, 255, 0.10);
+  --white-opacity-white-5: rgba(255, 255, 255, 0.05);
+}
+
+:root {
+  --black-opacity-black-90: rgba(0, 0, 0, 0.90);
+  --black-opacity-black-80: rgba(0, 0, 0, 0.80);
+  --black-opacity-black-70: rgba(0, 0, 0, 0.70);
+  --black-opacity-black-60: rgba(0, 0, 0, 0.60);
+  --black-opacity-black-50: rgba(0, 0, 0, 0.50);
+  --black-opacity-black-40: rgba(0, 0, 0, 0.40);
+  --black-opacity-black-30: rgba(0, 0, 0, 0.30);
+  --black-opacity-black-20: rgba(0, 0, 0, 0.20);
+  --black-opacity-black-10: rgba(0, 0, 0, 0.10);
+  --black-opacity-black-5: rgba(0, 0, 0, 0.05);
+}

@@ -1,0 +1,77 @@
+@use "../base/variables";
+
+.intro {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	height: 80vh;
+	overflow: hidden;
+
+	header,
+	figure,
+	.metadata-container {
+		grid-column: 1 / -1;
+		grid-row: 1 / -1
+	}
+
+	header {
+		position: relative;
+		z-index: 10;
+		display: flex;
+		height: 80px;
+		align-items: center;
+		justify-content: center;
+		border-bottom: 1px solid rgba(white, 0.5);
+
+		figure {
+			width: clamp(15rem, 12.7696rem + 9.1503vw, 23.75rem);
+		}
+	}
+
+	.hero-image {
+		height: 100%;
+		background: black;
+
+		picture {
+			height: 100%;
+		}
+	}
+
+	.hero-image img {
+		height: 100%;
+		object-fit: cover;
+		opacity: 0.6;
+	}
+
+	.metadata-container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		position: relative;
+		z-index: 20;
+		padding-top: 80px;
+
+		.metadata {
+			width: 88%;
+			max-width: 960px;
+			color: white;
+			display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+	gap: clamp(1.25rem, 0.9314rem + 1.3072vw, 2.5rem);
+
+			h1 {
+				text-wrap: balance;
+				line-height: 120%;
+			}
+
+			p {
+				width: 200px;
+				font-size: clamp(0.875rem, 0.7794rem + 0.3922vw, 1.25rem);
+				font-weight: 500;
+				line-height: 120%;
+			}
+		}
+
+	}
+}
