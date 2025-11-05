@@ -176,3 +176,7 @@ footer .footer-container {
 footer .footer-container p {
   font-size: 14px;
 }
+
+.resources-image {
+  min-width: 140px;
+}
