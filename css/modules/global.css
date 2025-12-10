@@ -113,15 +113,15 @@
   letter-spacing: 0 !important;
 }
 
-h2 {
+h2, .h2 {
   font-size: clamp(1.25rem, 0.9314rem + 1.3072vw, 2.5rem);
 }
 
-h3 {
+h3, .h3 {
   font-size: clamp(1.125rem, 0.902rem + 0.915vw, 2rem);
 }
 
-p {
+p, .p {
   font-size: clamp(0.875rem, 0.8113rem + 0.2614vw, 1.125rem);
   line-height: 140%;
 }
@@ -136,20 +136,6 @@ p {
 
 .img-width-300 {
   width: clamp(0rem, -4.7794rem + 19.6078vw, 18.75rem);
-}
-
-ul {
-  padding-top: 24px;
-}
-ul li {
-  padding: 40px 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-ul li:nth-of-type(1) {
-  border-top: 1px solid transparent;
 }
 
 .background-black {
@@ -179,4 +165,31 @@ footer .footer-container p {
 
 .resources-image {
   min-width: 140px;
+}
+
+.upcoming-events .section-header-container .venue-name {
+  color: var(--primary-500);
+}
+
+ul.band li {
+  color: var(--gray-600);
+  padding: 4px 0;
+}
+ul.band li span {
+  color: var(--black);
+  font-weight: 700;
+}
+
+.purchase {
+  padding-top: 24px;
+}
+.purchase a {
+  display: inline-flex;
+  height: 40px;
+  padding: 0 16px;
+  background: red;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
 }
