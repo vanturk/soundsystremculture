@@ -218,6 +218,10 @@ a {
   border-color: var(--white);
 }
 
+.txt-indent-8 {
+  text-indent: 8rem;
+}
+
 h1,
 h2,
 h3,
