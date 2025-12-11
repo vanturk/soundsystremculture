@@ -1133,7 +1133,7 @@ h3,
 
 p,
 .p {
-  font-size: clamp(0.875rem, 0.8113rem + 0.2614vw, 1.125rem);
+  font-size: clamp(1rem, 0.9363rem + 0.2614vw, 1.25rem);
   line-height: 140%;
 }
 
