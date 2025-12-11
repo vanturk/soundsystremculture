@@ -1128,3 +1128,8 @@ ul.band li span {
   align-items: center;
   border-radius: 4px;
 }
+
+.video-bg {
+  background: linear-gradient(to bottom #333, black);
+  color: #ccc;
+}
