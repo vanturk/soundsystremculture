@@ -206,12 +206,77 @@ a {
   color: var(--white);
 }
 
+.background-800 {
+  background: var(--brand-800);
+  color: var(--white);
+}
+
 .background-500 {
   background: var(--brand-500);
 }
 
 .background-200 {
   background: var(--brand-200);
+}
+
+.gray-200 {
+  color: var(--gray-200);
+}
+
+.gray-300 {
+  color: var(--gray-300);
+}
+
+.gray-400 {
+  color: var(--gray-400);
+}
+
+.gray-500 {
+  color: var(--gray-500);
+}
+
+.gray-600 {
+  color: var(--gray-600);
+}
+
+.gray-700 {
+  color: var(--gray-700);
+}
+
+.gray-800 {
+  color: var(--gray-800);
+}
+
+.border {
+  border: 1px solid var(--gray-200);
+}
+
+.border-color-gray-300 {
+  border-color: var(--gray-300);
+}
+
+.border-color-gray-400 {
+  border-color: var(--gray-400);
+}
+
+.border-color-gray-500 {
+  border-color: var(--gray-500);
+}
+
+.border-color-gray-600 {
+  border-color: var(--gray-600);
+}
+
+.border-color-gray-700 {
+  border-color: var(--gray-700);
+}
+
+.border-color-gray-800 {
+  border-color: var(--gray-800);
+}
+
+.border-color-white {
+  border-color: var(--white);
 }
 
 h1,
@@ -939,7 +1004,7 @@ main {
   padding-top: 40px;
 }
 
-.border {
+.border-pink {
   border: 1px solid deeppink;
 }
 
@@ -977,6 +1042,10 @@ main {
 .dynamic-width-1400 {
   width: 96%;
   max-width: 1400px;
+}
+
+.w50pc {
+  width: 50%;
 }
 
 .intro {
@@ -1048,15 +1117,18 @@ main {
   letter-spacing: 0 !important;
 }
 
-h2, .h2 {
+h2,
+.h2 {
   font-size: clamp(1.25rem, 0.9314rem + 1.3072vw, 2.5rem);
 }
 
-h3, .h3 {
+h3,
+.h3 {
   font-size: clamp(1.125rem, 0.902rem + 0.915vw, 2rem);
 }
 
-p, .p {
+p,
+.p {
   font-size: clamp(0.875rem, 0.8113rem + 0.2614vw, 1.125rem);
   line-height: 140%;
 }
@@ -1073,8 +1145,21 @@ p, .p {
   width: clamp(0rem, -4.7794rem + 19.6078vw, 18.75rem);
 }
 
-.background-black {
-  background: #181818;
+.img-width-400 {
+  width: 100%;
+  max-width: 400px;
+}
+
+.img-width-500 {
+  width: 100%;
+  max-width: 500px;
+}
+
+.title2 span {
+  display: flex;
+  font-size: clamp(1rem, 0.9363rem + 0.2614vw, 1.25rem);
+  font-weight: 600;
+  color: var(--gray-500);
 }
 
 .subtitle {
@@ -1102,16 +1187,23 @@ footer .footer-container p {
   min-width: 140px;
 }
 
-.upcoming-events .section-header-container .venue-name {
-  color: var(--primary-500);
+.upcoming-events {
+  background: var(--gray-800);
+}
+.upcoming-events * {
+  color: var(--white);
+}
+
+.background-black {
+  background: #181818;
 }
 
 ul.band li {
-  color: var(--gray-600);
+  color: var(--gray-300);
   padding: 4px 0;
 }
 ul.band li span {
-  color: var(--black);
+  color: var(--white);
   font-weight: 700;
 }
 

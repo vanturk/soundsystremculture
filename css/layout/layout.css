@@ -559,7 +559,7 @@ main {
   padding-top: 40px;
 }
 
-.border {
+.border-pink {
   border: 1px solid deeppink;
 }
 
@@ -597,4 +597,8 @@ main {
 .dynamic-width-1400 {
   width: 96%;
   max-width: 1400px;
+}
+
+.w50pc {
+  width: 50%;
 }

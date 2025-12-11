@@ -4,15 +4,18 @@
     letter-spacing: 0 !important;
 }
 
-h2, .h2 {
+h2,
+.h2 {
     font-size: clamp(1.25rem, 0.9314rem + 1.3072vw, 2.5rem);
 }
 
-h3, .h3 {
+h3,
+.h3 {
     font-size: clamp(1.125rem, 0.902rem + 0.915vw, 2rem);
 }
 
-p, .p {
+p,
+.p {
     font-size: clamp(0.875rem, 0.8113rem + 0.2614vw, 1.125rem);
     line-height: 140%;
 }
@@ -29,25 +32,29 @@ p, .p {
     width: clamp(0rem, -4.7794rem + 19.6078vw, 18.75rem);
 }
 
-// ul {
-//     padding-top: 24px;
-
-//     li {
-//         padding: 40px 0;
-//         border-top: 1px solid rgba(white, 0.5);
-//         display: flex;
-//         flex-direction: column;
-//         gap: 24px;
-
-//         &:nth-of-type(1) {
-//             border-top: 1px solid transparent;
-//         }
-//     }
-// }
+.img-width-400 {
+    width: 100%;
+    max-width: 400px;
+}
 
 
-.background-black {
-    background: #181818;
+.img-width-500 {
+    width: 100%;
+    max-width: 500px;
+}
+
+
+
+
+
+.title2 {
+    span {
+        display: flex;
+        font-size: clamp(1rem, 0.9363rem + 0.2614vw, 1.25rem);
+    font-weight: 600;
+    color: var(--gray-500);
+}
+
 }
 
 .subtitle {
@@ -83,42 +90,48 @@ footer {
 }
 
 .upcoming-events {
-    .section-header-container {
-        .venue-name {
-            color: var(--primary-500);
-        }
+    background: var(--gray-800); 
+    & * {
+        color: var(--white);
     }
+}
+.background-black {
+    background: #181818;
 }
 
 
-    ul.band {
-        li {
-            color: var(--gray-600);
-            padding: 4px 0;
-            span {
-                color: var(--black);
-                font-weight: 700;;
-            }
+
+
+ul.band {
+    li {
+        color: var(--gray-300);
+        padding: 4px 0;
+
+        span {
+            color: var(--white);
+            font-weight: 700;
+            ;
         }
     }
+}
 
 
 .purchase {
     padding-top: 24px;
+
     a {
         display: inline-flex;
-    height: 40px;
-    padding: 0 16px;
-    background: red;
-    color: white;
-    justify-content: center;
-    align-items: center;
-    border-radius: 4px;
-}
+        height: 40px;
+        padding: 0 16px;
+        background: red;
+        color: white;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+    }
 }
 
 .video-bg {
     background: linear-gradient(to bottom #333, black);
     color: #ccc;
 }
-
