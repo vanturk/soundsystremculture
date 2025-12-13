@@ -1193,6 +1193,8 @@ footer .footer-container p {
 
 .upcoming-events {
   background: var(--gray-800);
+  background: #170b07;
+  border-top: 1px solid #60443c;
 }
 .upcoming-events * {
   color: var(--white);
