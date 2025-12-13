@@ -538,7 +538,7 @@ p,
 }
 
 .col2-dynamic {
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
 .col3-dynamic {
