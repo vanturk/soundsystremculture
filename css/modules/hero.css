@@ -131,6 +131,12 @@
   justify-content: center;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   background: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  backdrop-filter: blur(40px);
+  z-index: 50;
 }
 .intro header figure {
   width: clamp(15rem, 12.7696rem + 9.1503vw, 23.75rem);

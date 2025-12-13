@@ -406,6 +406,7 @@ p,
   font-size: clamp(1rem, 0.9363rem + 0.2614vw, 1.25rem);
   font-weight: 600;
   color: var(--gray-500);
+  line-height: 120%;
 }
 
 .subtitle {
@@ -1045,6 +1046,12 @@ main {
   justify-content: center;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   background: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  backdrop-filter: blur(40px);
+  z-index: 50;
 }
 .intro header figure {
   width: clamp(15rem, 12.7696rem + 9.1503vw, 23.75rem);
@@ -1120,17 +1127,6 @@ main {
   background: #f6f6f6;
 }
 
-footer .footer-container {
-  height: 40px;
-  border-top: 1px solid rgba(0, 0, 0, 0.5);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-footer .footer-container p {
-  font-size: 14px;
-}
-
 .resources .resources-image {
   min-width: 140px;
 }
@@ -1177,4 +1173,16 @@ ul.band li span {
 .video-bg {
   background: linear-gradient(to bottom #333, black);
   color: #ccc;
+}
+
+footer .footer-container {
+  height: 40px;
+  border-top: 1px solid var(--gray-300);
+  background: var(--gray-200);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .footer-container p {
+  font-size: 14px;
 }

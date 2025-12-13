@@ -141,17 +141,6 @@
   background: #f6f6f6;
 }
 
-footer .footer-container {
-  height: 40px;
-  border-top: 1px solid rgba(0, 0, 0, 0.5);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-footer .footer-container p {
-  font-size: 14px;
-}
-
 .resources .resources-image {
   min-width: 140px;
 }

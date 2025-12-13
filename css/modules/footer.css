@@ -1,1 +1,11 @@
-
+footer .footer-container {
+  height: 40px;
+  border-top: 1px solid var(--gray-300);
+  background: var(--gray-200);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .footer-container p {
+  font-size: 14px;
+}
