@@ -542,7 +542,7 @@ p,
 }
 
 .col3-dynamic {
-  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
 }
 
 .col4-dynamic {
@@ -1131,8 +1131,11 @@ footer .footer-container p {
   font-size: 14px;
 }
 
-.resources-image {
+.resources .resources-image {
   min-width: 140px;
+}
+.resources .metadata {
+  min-height: 100px;
 }
 
 .upcoming-events {

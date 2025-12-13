@@ -152,8 +152,11 @@ footer .footer-container p {
   font-size: 14px;
 }
 
-.resources-image {
+.resources .resources-image {
   min-width: 140px;
+}
+.resources .metadata {
+  min-height: 100px;
 }
 
 .upcoming-events {
