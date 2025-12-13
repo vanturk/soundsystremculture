@@ -184,7 +184,7 @@
 html,
 body {
   width: 100%;
-  height: 100%;
+  height: 100dvh;
 }
 
 img,
@@ -1078,7 +1078,6 @@ main {
   width: clamp(15rem, 12.7696rem + 9.1503vw, 23.75rem);
 }
 .intro .hero-image {
-  height: 100%;
   background: black;
 }
 .intro .hero-image picture {
