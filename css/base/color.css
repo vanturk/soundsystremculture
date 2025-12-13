@@ -109,66 +109,58 @@
   --radius: clamp(var(--size-2), var(--size-4) + 2vw, var(--size-8));
 }
 
-.intro {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-  height: 80dvh;
-  overflow: hidden;
+.white {
+  color: var(--white);
 }
-.intro header,
-.intro figure,
-.intro .metadata-container {
-  grid-column: 1/-1;
-  grid-row: 1/-1;
+
+.black {
+  color: var(--black);
 }
-.intro header {
-  position: relative;
-  z-index: 10;
-  display: flex;
-  height: 80px;
-  align-items: center;
-  justify-content: center;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+
+.brand-200 {
+  color: var(--brand-200);
 }
-.intro header figure {
-  width: clamp(15rem, 12.7696rem + 9.1503vw, 23.75rem);
+
+.brand-500 {
+  color: var(--brand-500);
 }
-.intro .hero-image {
-  background: black;
+
+.brand-900 {
+  color: var(--brand-900);
 }
-.intro .hero-image picture {
-  height: 100%;
+
+.primary-200 {
+  color: var(--primary-200);
 }
-.intro .hero-image img {
-  height: 100%;
-  object-fit: cover;
-  opacity: 0.6;
+
+.primary-300 {
+  color: var(--primary-300);
 }
-.intro .metadata-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  z-index: 20;
-  padding-top: 80px;
+
+.primary-500 {
+  color: var(--primary-500);
 }
-.intro .metadata-container .metadata {
-  width: 88%;
-  max-width: 960px;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  gap: clamp(1.25rem, 0.9314rem + 1.3072vw, 2.5rem);
+
+.primary-700 {
+  color: var(--primary-700);
 }
-.intro .metadata-container .metadata h1 {
-  text-wrap: balance;
-  line-height: 120%;
+
+.secondary-200 {
+  color: var(--secondary-200);
 }
-.intro .metadata-container .metadata p {
-  width: 200px;
-  font-size: clamp(0.875rem, 0.7794rem + 0.3922vw, 1.25rem);
-  font-weight: 500;
-  line-height: 120%;
+
+.secondary-300 {
+  color: var(--secondary-300);
+}
+
+.secondary-500 {
+  color: var(--secondary-500);
+}
+
+.secondary-700 {
+  color: var(--secondary-700);
+}
+
+.secondary-900 {
+  color: var(--secondary-900);
 }

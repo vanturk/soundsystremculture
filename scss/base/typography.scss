@@ -109,6 +109,39 @@ p {
 }
 
 
+
+h2,
+.h2 {
+    font-size: var(--h2);
+}
+
+h3,
+.h3 {
+    font-size: var(--h3);
+}
+
+p,
+.p {
+    font-size: var(--p);
+    line-height: 140%;
+}
+
+.title2 {
+    span {
+        display: flex;
+        font-size: clamp(1rem, 0.9363rem + 0.2614vw, 1.25rem);
+    font-weight: 600;
+    color: var(--gray-500);
+}
+
+}
+
+.subtitle {
+    font-size: clamp(1rem, 0.9363rem + 0.2614vw, 1.25rem);
+}
+
+
+
 /* display text defaults styles */
 
 .display-text {
@@ -143,62 +176,4 @@ p {
 .text-uppercase {
 	text-transform: uppercase;
 	letter-spacing: 0.05rem;
-}
-
-
-.white {
-	color: var(--white);
-}
-.black {
-	color: var(--black);
-}
-
-.brand-200 {
-	color: var(--brand-200);
-}
-.brand-500 {
-	color: var(--brand-500);
-}
-.brand-900 {
-	color: var(--brand-900);
-}
-
-
-
-
-
-// primary and secondary colors
-.primary-200 {
-	color: var(--primary-200);
-}
-
-.primary-300 {
-	color: var(--primary-300);
-}
-
-.primary-500 {
-	color: var(--primary-500);
-}
-.primary-700 {
-	color: var(--primary-700);
-}
-
-
-.secondary-200 {
-	color: var(--secondary-200);
-}
-
-.secondary-300 {
-	color: var(--secondary-300);
-}
-
-.secondary-500 {
-	color: var(--secondary-500);
-}
-.secondary-700 {
-	color: var(--secondary-700);
-}
-
-.secondary-900 {
-	color: var(--secondary-900);
 }

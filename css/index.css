@@ -66,13 +66,13 @@
   --display-serif: "Literata", serif;
   /* html text styles */
   /* this set is little small in size, use for more conservative designs */
-  --h1: clamp(1.5rem, 0.8627rem + 2.6144vw, 4rem);
-  --h2: clamp(1.25rem, -2.1875rem + 11vw, 4rem);
-  --h3: clamp(1.125rem, -1.8438rem + 9.5vw, 3.5rem);
-  --h4: clamp(1rem, -1.5rem + 8vw, 3rem);
-  --h5: clamp(0.875rem, -1.1563rem + 6.5vw, 2.5rem);
-  --h6: clamp(0.875rem, -0.5313rem + 4.5vw, 2rem);
-  --p: clamp(0.875rem, 0.0938rem + 2.5vw, 1.5rem);
+  --h1: clamp(1.75rem, 1.1765rem + 2.3529vw, 4rem);
+  --h2: clamp(1.5rem, 0.9902rem + 2.0915vw, 3.5rem);
+  --h3: clamp(1.375rem, 0.9608rem + 1.6993vw, 3rem);
+  --h4: clamp(1.25rem, 0.9314rem + 1.3072vw, 2.5rem);
+  --h5: clamp(1.125rem, 0.902rem + 0.915vw, 2rem);
+  --h6: clamp(1rem, 0.8725rem + 0.5229vw, 1.5rem);
+  --p: clamp(1rem, 0.8725rem + 0.5229vw, 1.5rem);
   /* display title styles */
   --d1: clamp(var(--size-48), var(--size-8) + 10vw, var(--size-160));
   --d2: clamp(var(--size-32), var(--size-8) + 8vw, var(--size-100));
@@ -385,6 +385,33 @@ p {
   font-size: var(--d3);
 }
 
+h2,
+.h2 {
+  font-size: var(--h2);
+}
+
+h3,
+.h3 {
+  font-size: var(--h3);
+}
+
+p,
+.p {
+  font-size: var(--p);
+  line-height: 140%;
+}
+
+.title2 span {
+  display: flex;
+  font-size: clamp(1rem, 0.9363rem + 0.2614vw, 1.25rem);
+  font-weight: 600;
+  color: var(--gray-500);
+}
+
+.subtitle {
+  font-size: clamp(1rem, 0.9363rem + 0.2614vw, 1.25rem);
+}
+
 /* display text defaults styles */
 .display-text {
   line-height: 120%;
@@ -414,62 +441,6 @@ p {
 .text-uppercase {
   text-transform: uppercase;
   letter-spacing: 0.05rem;
-}
-
-.white {
-  color: var(--white);
-}
-
-.black {
-  color: var(--black);
-}
-
-.brand-200 {
-  color: var(--brand-200);
-}
-
-.brand-500 {
-  color: var(--brand-500);
-}
-
-.brand-900 {
-  color: var(--brand-900);
-}
-
-.primary-200 {
-  color: var(--primary-200);
-}
-
-.primary-300 {
-  color: var(--primary-300);
-}
-
-.primary-500 {
-  color: var(--primary-500);
-}
-
-.primary-700 {
-  color: var(--primary-700);
-}
-
-.secondary-200 {
-  color: var(--secondary-200);
-}
-
-.secondary-300 {
-  color: var(--secondary-300);
-}
-
-.secondary-500 {
-  color: var(--secondary-500);
-}
-
-.secondary-700 {
-  color: var(--secondary-700);
-}
-
-.secondary-900 {
-  color: var(--secondary-900);
 }
 
 /* button(s) */
@@ -571,7 +542,7 @@ p {
 }
 
 .col3-dynamic {
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
 }
 
 .col4-dynamic {
@@ -779,7 +750,7 @@ p {
 }
 
 .padding-40 {
-  padding: clamp(0rem, -0.6373rem + 2.6144vw, 2.5rem);
+  padding: clamp(1rem, 0.6176rem + 1.5686vw, 2.5rem);
 }
 
 .padding-left-40 {
@@ -843,35 +814,35 @@ p {
 }
 
 .padding-top-40 {
-  padding-top: clamp(0.5rem, -2rem + 8vw, 2.5rem);
+  padding-top: clamp(1rem, 0.6176rem + 1.5686vw, 2.5rem);
 }
 
 .padding-bottom-40 {
-  padding-bottom: clamp(0.5rem, -2rem + 8vw, 2.5rem);
+  padding-bottom: clamp(1rem, 0.6176rem + 1.5686vw, 2.5rem);
 }
 
 .padding-top-48 {
-  padding-top: clamp(0.5rem, -2.625rem + 10vw, 3rem);
+  padding-top: clamp(1.125rem, 0.6471rem + 1.9608vw, 3rem);
 }
 
 .padding-bottom-48 {
-  padding-bottom: clamp(0.5rem, -2.625rem + 10vw, 3rem);
+  padding-bottom: clamp(1.125rem, 0.6471rem + 1.9608vw, 3rem);
 }
 
 .padding-top-64 {
-  padding-top: clamp(1rem, -2.75rem + 12vw, 4rem);
+  padding-top: clamp(1.5rem, 0.8627rem + 2.6144vw, 4rem);
 }
 
 .padding-bottom-64 {
-  padding-bottom: clamp(1rem, -2.75rem + 12vw, 4rem);
+  padding-bottom: clamp(1.5rem, 0.8627rem + 2.6144vw, 4rem);
 }
 
 .padding-top-80 {
-  padding-top: clamp(1.25rem, -3.4375rem + 15vw, 5rem);
+  padding-top: clamp(2.5rem, 1.8627rem + 2.6144vw, 5rem);
 }
 
 .padding-bottom-80 {
-  padding-bottom: clamp(1.25rem, -3.4375rem + 15vw, 5rem);
+  padding-bottom: clamp(2.5rem, 1.8627rem + 2.6144vw, 5rem);
 }
 
 .padding-top-96 {
@@ -1120,22 +1091,6 @@ main {
   letter-spacing: 0 !important;
 }
 
-h2,
-.h2 {
-  font-size: clamp(1.25rem, 0.9314rem + 1.3072vw, 2.5rem);
-}
-
-h3,
-.h3 {
-  font-size: clamp(1.125rem, 0.902rem + 0.915vw, 2rem);
-}
-
-p,
-.p {
-  font-size: clamp(1rem, 0.9363rem + 0.2614vw, 1.25rem);
-  line-height: 140%;
-}
-
 .light-text {
   color: #ddd;
 }
@@ -1156,17 +1111,6 @@ p,
 .img-width-500 {
   width: 100%;
   max-width: 500px;
-}
-
-.title2 span {
-  display: flex;
-  font-size: clamp(1rem, 0.9363rem + 0.2614vw, 1.25rem);
-  font-weight: 600;
-  color: var(--gray-500);
-}
-
-.subtitle {
-  font-size: clamp(1rem, 0.9363rem + 0.2614vw, 1.25rem);
 }
 
 .gray-bg {
