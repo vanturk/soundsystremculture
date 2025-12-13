@@ -28,6 +28,10 @@
 }
 
 
+.content-container picture {
+    border-radius: clamp(0.25rem, 0.1863rem + 0.2614vw, 0.5rem);
+    overflow: hidden;
+}
 
 
 

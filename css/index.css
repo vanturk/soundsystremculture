@@ -1121,6 +1121,11 @@ main {
   max-width: 500px;
 }
 
+.content-container picture {
+  border-radius: clamp(0.25rem, 0.1863rem + 0.2614vw, 0.5rem);
+  overflow: hidden;
+}
+
 .gray-bg {
   border-top: 1px solid rgba(0, 0, 0, 0.5);
   border-bottom: 1px solid rgba(0, 0, 0, 0.5);
