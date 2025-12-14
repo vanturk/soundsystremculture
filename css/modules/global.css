@@ -109,10 +109,6 @@
   --radius: clamp(var(--size-2), var(--size-4) + 2vw, var(--size-8));
 }
 
-* {
-  letter-spacing: 0 !important;
-}
-
 .light-text {
   color: #ddd;
 }

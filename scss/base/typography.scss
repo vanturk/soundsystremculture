@@ -113,11 +113,13 @@ p {
 h2,
 .h2 {
     font-size: var(--h2);
+	letter-spacing: -0.1rem;
 }
 
 h3,
 .h3 {
     font-size: var(--h3);
+	letter-spacing: -0.05rem;
 }
 
 p,
