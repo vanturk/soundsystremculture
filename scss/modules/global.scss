@@ -44,23 +44,25 @@
 
 .resources {
     .resources-image {
-    min-width: 140px;
+        min-width: 140px;
 
-}
+    }
 
-.metadata {
-    min-height: 100px;
-}
+    .metadata {
+        min-height: 100px;
+    }
 }
 
 .upcoming-events {
-    background: var(--gray-800); 
+    background: var(--gray-800);
     background: #170b07;
     border-top: 1px solid #60443c;
+
     & * {
         color: var(--white);
     }
 }
+
 .background-black {
     background: #181818;
 }

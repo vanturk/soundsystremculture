@@ -8,15 +8,16 @@
 
 
 main {
-    display: flex;
-    flex-direction: column;
-padding-top: 40px;
+	display: flex;
+	flex-direction: column;
+	padding-top: 40px;
 }
 
 .border-pink {
 	border: 1px solid deeppink;
 
 }
+
 .section-container {
 	display: flex;
 	flex-direction: column;

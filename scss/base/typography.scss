@@ -10,27 +10,33 @@ h6 {
 	// font-weight: 600;
 }
 
-h1, .h1 {
+h1,
+.h1 {
 	font-size: var(--h1);
 }
 
-h2, .h2 {
+h2,
+.h2 {
 	font-size: var(--h2);
 }
 
-h3, .h3 {
+h3,
+.h3 {
 	font-size: var(--h3);
 }
 
-h4, .h4 {
+h4,
+.h4 {
 	font-size: var(--h4);
 }
 
-h5, .h5 {
+h5,
+.h5 {
 	font-size: var(--h5);
 }
 
-h6, .h6 {
+h6,
+.h6 {
 	font-size: var(--h6);
 }
 
@@ -39,45 +45,28 @@ h6, .h6 {
 p {
 	font-size: var(--p);
 	// font-family: var(--serif);
-	line-height: 160%;
+	line-height: 140%;
 	font-weight: 400;
 	letter-spacing: -0.01rem;
 }
 
 
-.fw-100 {
-	font-weight: 100;
-}
-
-.fw-200 {
-	font-weight: 200;
-}
-
-.fw-300 {
-	font-weight: 300;
-}
-
-.fw-400 {
-	font-weight: 400;
-}
-
-.fw-500 {
-	font-weight: 500;
-}
-.fw-600 {
-	font-weight: 600;
-}
-.fw-700 {
-	font-weight: 700;
-}
-.fw-800 {
-	font-weight: 800;
-}
-.fw-900 {
-	font-weight: 900;
-}
 
 
+.title2 {
+	span {
+		display: flex;
+		font-size: clamp(1rem, 0.9363rem + 0.2614vw, 1.25rem);
+		font-weight: 600;
+		color: var(--gray-500);
+		line-height: 120%;
+	}
+
+}
+
+.subtitle {
+	font-size: clamp(1rem, 0.9363rem + 0.2614vw, 1.25rem);
+}
 
 
 .card-title {
@@ -86,6 +75,15 @@ p {
 	line-height: 120%;
 	letter-spacing: -0.04rem;
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -110,38 +108,7 @@ p {
 
 
 
-h2,
-.h2 {
-    font-size: var(--h2);
-	letter-spacing: -0.1rem;
-}
 
-h3,
-.h3 {
-    font-size: var(--h3);
-	letter-spacing: -0.05rem;
-}
-
-p,
-.p {
-    font-size: var(--p);
-    line-height: 140%;
-}
-
-.title2 {
-    span {
-        display: flex;
-        font-size: clamp(1rem, 0.9363rem + 0.2614vw, 1.25rem);
-    font-weight: 600;
-    color: var(--gray-500);
-	line-height: 120%;
-}
-
-}
-
-.subtitle {
-    font-size: clamp(1rem, 0.9363rem + 0.2614vw, 1.25rem);
-}
 
 
 
@@ -179,4 +146,42 @@ p,
 .text-uppercase {
 	text-transform: uppercase;
 	letter-spacing: 0.05rem;
+}
+
+
+
+.fw-100 {
+	font-weight: 100;
+}
+
+.fw-200 {
+	font-weight: 200;
+}
+
+.fw-300 {
+	font-weight: 300;
+}
+
+.fw-400 {
+	font-weight: 400;
+}
+
+.fw-500 {
+	font-weight: 500;
+}
+
+.fw-600 {
+	font-weight: 600;
+}
+
+.fw-700 {
+	font-weight: 700;
+}
+
+.fw-800 {
+	font-weight: 800;
+}
+
+.fw-900 {
+	font-weight: 900;
 }
