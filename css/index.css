@@ -1049,8 +1049,9 @@ main {
 .intro .hero-image {
   background: black;
 }
+.intro .hero-image figure,
 .intro .hero-image picture {
-  height: 80%;
+  height: 100%;
 }
 .intro .hero-image img {
   height: 100%;
