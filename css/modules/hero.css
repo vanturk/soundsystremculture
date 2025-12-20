@@ -146,7 +146,7 @@
 }
 .intro .hero-image figure,
 .intro .hero-image picture {
-  height: 100%;
+  height: 89dvh;
 }
 .intro .hero-image img {
   height: 100%;
