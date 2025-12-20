@@ -337,6 +337,15 @@ p, .p {
   font-weight: 600;
   color: var(--gray-500);
   line-height: 120%;
+  padding-top: 8px;
+}
+
+h3 span {
+  display: flex;
+  font-size: clamp(1rem, 0.9363rem + 0.2614vw, 1.25rem);
+  font-weight: 600;
+  color: var(--gray-500);
+  line-height: 120%;
 }
 
 .subtitle {
@@ -1131,6 +1140,9 @@ main {
 }
 .upcoming-events * {
   color: var(--white);
+}
+.upcoming-events h2 {
+  color: #aaa;
 }
 
 .background-black {

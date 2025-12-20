@@ -157,6 +157,9 @@
 .upcoming-events * {
   color: var(--white);
 }
+.upcoming-events h2 {
+  color: #aaa;
+}
 
 .background-black {
   background: #181818;
