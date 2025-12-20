@@ -324,7 +324,7 @@ h6,
   font-size: var(--h6);
 }
 
-p {
+p, .p {
   font-size: var(--p);
   line-height: 140%;
   font-weight: 400;
@@ -1028,13 +1028,11 @@ main {
   grid-row: 1/-1;
 }
 .intro header {
-  position: relative;
   z-index: 10;
   display: flex;
   height: 80px;
   align-items: center;
   justify-content: center;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   background: rgba(0, 0, 0, 0.3);
   position: fixed;
   top: 0;
