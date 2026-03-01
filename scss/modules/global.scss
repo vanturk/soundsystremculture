@@ -65,7 +65,7 @@
     h2 {
         color: #aaa;
     }
-    
+
 }
 
 .background-black {
@@ -107,4 +107,50 @@ ul.band {
 .video-bg {
     background: linear-gradient(to bottom #333, black);
     color: #ccc;
+}
+
+// .liquid {
+//     picture {
+//         position: relative;
+
+//         canvas {
+//             display: block;
+//         }
+
+//         img {
+
+//             &:nth-of-type(2) {
+//                 position: absolute;
+//                 top: 0;
+//                 left: 0;
+//                 opacity: 0;
+//                 transition: opacity 0.3s ease;
+//             }
+//         }
+//     }
+
+//     &:hover {
+//         picture {
+//             img:nth-of-type(2) {
+//                 opacity: 1;
+//             }
+//         }
+//     }
+// }
+
+// .js .liquid picture img {
+//     display: none;
+// }
+
+.liquid {
+    picture {
+        height: 500px;
+        canvas {
+            height: 100%;
+        }
+        img {
+            height: 100%;
+            object-fit: cover;
+        }
+    }
 }

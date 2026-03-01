@@ -1009,6 +1009,11 @@ main {
   max-width: 960px;
 }
 
+.dynamic-width-1100 {
+  width: 88%;
+  max-width: 1100px;
+}
+
 .dynamic-width-1200 {
   width: 88%;
   max-width: 1200px;
@@ -1175,6 +1180,17 @@ ul.band li span {
 .video-bg {
   background: linear-gradient(to bottom #333, black);
   color: #ccc;
+}
+
+.liquid picture {
+  height: 500px;
+}
+.liquid picture canvas {
+  height: 100%;
+}
+.liquid picture img {
+  height: 100%;
+  object-fit: cover;
 }
 
 footer .footer-container {

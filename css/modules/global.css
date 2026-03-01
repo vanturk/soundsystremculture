@@ -192,3 +192,14 @@ ul.band li span {
   background: linear-gradient(to bottom #333, black);
   color: #ccc;
 }
+
+.liquid picture {
+  height: 500px;
+}
+.liquid picture canvas {
+  height: 100%;
+}
+.liquid picture img {
+  height: 100%;
+  object-fit: cover;
+}

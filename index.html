@@ -46,17 +46,17 @@
 	</section>
 
 	<section class="section-container padding-top-80 padding-bottom-80 upcoming-events">
-		<div class="content-container dynamic-width-800 flex flex-direction-column">
+		<div class="content-container dynamic-width-1100 flex flex-direction-column">
 			<div class="section-header-container flex flex-direction-column">
 				<h2>Upcoming Events</h2>
 				<h3 class="padding-top-40 padding-bottom-24 fw-600">Jay Rodriguez-Sierra – Sound System Culture</h3>
 
 			</div>
 			<div class="content grid col2-dynamic gap-20">
-				<figure>
-					<picture>
+				<figure class="liquid">
+					<picture class="img img3">
 						<source srcset="images/smalls-jan6.webp" media="(max-width: 767px)">
-						<img src="images/smalls-jan6.webp" alt="Small's Jazz Club Event Jan 6, 2025">
+						<!-- <img src="images/smalls-jan6.webp" alt="Small's Jazz Club Event Jan 6, 2025"> -->
 					</picture>
 				</figure>
 				<div>
@@ -100,10 +100,10 @@
 
 				<h3 class="padding-top-64 title2">Jay Rodriguez-Sierra <span>Acclaimed Musician and Artistic
 						Director</span></h3>
-				<figure class="img-width-500 padding-top-40 padding-bottom-40">
-					<picture>
-						<img src="images/jay-rodriguez-sierra.webp"
-							alt="Jay Rodriguez-Sierra">
+				<figure class="liquid img-width-500 padding-top-40 padding-bottom-40">
+					<picture class="img img1" data-displacement="images/displacement/8.jpg" data-intensity="-0.1">
+						<!-- <img src="images/jay-rodriguez-sierra.webp" alt="Jay Rodriguez-Sierra">
+						<img src="images/jay-rodriguez-sierra.webp" alt="Jay Rodriguez-Sierra"> -->
 					</picture>
 				</figure>
 				<p class="txt-indent-8"><strong>Jay Rodriguez is a Grammy-nominated composer, producer,</strong>
@@ -122,9 +122,10 @@
 					artistic innovation and social impact.</p>
 
 				<h3 class="padding-top-64 title2">Martha Cinader <span>Poet, Author, and Multimedia Producer</span></h3>
-				<figure class="img-width-500 padding-top-40 padding-bottom-40">
-					<picture>
-						<img src="images/martha-cinader.webp" alt="Martha Cinader">
+				<figure class="liquid img-width-500 padding-top-40 padding-bottom-40">
+					<picture class="img img2" data-displacement="images/displacement/8.jpg" data-intensity="-0.1">
+						<!-- <img src="images/martha-cinader.jpg" alt="Martha Cinader">
+						<img src="images/martha-cinader.jpg" alt="Martha Cinader"> -->
 					</picture>
 				</figure>
 				<p class="txt-indent-8"><strong>Martha Cinader is a poet, author, and multimedia producer</strong> whose
@@ -160,7 +161,7 @@
 		</div>
 	</section>
 
-<!-- 
+	<!-- 
 	<section class="section-container background-black text-white padding-top-80 padding-bottom-80 video-bg">
 		<div class="content-container flex flex-direction-column gap-20 dynamic-width-960">
 			<video controls controlsList="nodownload" src="images/jay rodriguez sierra a life in music.mp4"
@@ -238,18 +239,79 @@
 			</p>
 		</div>
 	</footer>
-
+	<script src="js/imagesloaded.pkgd.min.js"></script>
+	<script src="js/three.min.js"></script>
 	<script src="js/gsap/gsap.min.js"></script>
 	<script src="js/gsap/ScrollTrigger.min.js"></script>
 	<script src="js/gsap/ScrollToPlugin.min.js"></script>
 	<script src="js/gsap/TextPlugin.min.js"></script>
 	<script src="js/gsap/MotionPathPlugin.min.js"></script>
 	<script src="js/gsap/SplitText.min.js"></script>
-	<script src="js/splitType.min.js"></script>
 	<script src="js/lenis.min.js"></script>
+	<script src="js/hover-effect.umd.js"></script>
 
 
 	<script src="js/index.js"></script>
+
+	<script>
+		// imagesLoaded(document.querySelectorAll('img'), () => {
+		// 	document.body.classList.remove('loading');
+		// });
+
+		// Initialize after images load so dimensions are correct for imagesRatio
+		// imagesLoaded(document.querySelectorAll('.liquid picture img'), function () {
+		// 	Array.from(document.querySelectorAll('.liquid picture')).forEach((el) => {
+		// 		const imgs = Array.from(el.querySelectorAll('img'));
+		// 		new hoverEffect({
+		// 			parent: el,
+		// 			imagesRatio: el.offsetHeight / el.offsetWidth || 1,
+		// 			intensity: el.dataset.intensity ? parseFloat(el.dataset.intensity) : undefined,
+		// 			speedIn: el.dataset.speedin ? parseFloat(el.dataset.speedin) : undefined,
+		// 			speedOut: el.dataset.speedout ? parseFloat(el.dataset.speedout) : undefined,
+		// 			easing: el.dataset.easing || undefined,
+		// 			hover: el.dataset.hover || undefined,
+		// 			image1: imgs[0].getAttribute('src'),
+		// 			image2: imgs[1].getAttribute('src'),
+		// 			displacementImage: el.dataset.displacement
+		// 		});
+		// 	});
+
+		// Add .js class AFTER hoverEffect so images are visible for measurements
+		// 	document.documentElement.classList.add('js');
+		// });
+
+
+		new hoverEffect({
+			parent: document.querySelector('.img1'),
+			intensity: .2,
+			angle: Math.PI / 8,
+			image1: 'images/jay-rodriguez-sierra.webp',
+			image2: 'images/jay-performing.webp',
+			displacementImage: 'images/displacement/4.png',
+			angle: Math.PI / 8,
+			//imagesRatio: '.75' //height / width
+		})
+
+		new hoverEffect({
+			parent: document.querySelector('.img2'),
+			intensity: .1,
+			image1: 'images/martha-cinader.webp',
+			image2: 'images/martha-cinader-at-home.jpg',
+			displacementImage: 'images/displacement/4.png',
+			angle: Math.PI / 8,
+			//imagesRatio: '.75' //height / width
+		})
+
+		new hoverEffect({
+			parent: document.querySelector('.img3'),
+			intensity: .1,
+			image1: 'images/smalls-jan6-bw.webp',
+			image2: 'images/smalls-jan6.webp',
+			displacementImage: 'images/displacement/4.png',
+			angle: Math.PI / 8,
+			//imagesRatio: '.75' //height / width
+		})
+	</script>
 </body>
 
 </html>
